@@ -1,6 +1,6 @@
 function Card({post,removeCard}){
     return(
-        <div className="w-80 shadow-lg m-5 bg-gray-200 rounded-2xl relative p-6">
+        <div className="w-80 h-90 shadow-lg m-5 bg-gray-200 rounded-2xl relative p-6">
             
             
             <span onClick={()=>removeCard(post.id)}></span>

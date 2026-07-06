@@ -53,7 +53,7 @@ if (loading) {
 
   return(
     <>
-    <div className="bg-gray-400">
+    <div className=" mx-40">
       
       <Cardlist post={currentPages}
       removeCard={CardRemove}
